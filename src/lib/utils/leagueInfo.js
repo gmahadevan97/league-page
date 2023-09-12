@@ -26,45 +26,47 @@ export const managers = [
       "photo": "/managers/Saat.jpeg", 
       "mode": "Win Now",
       "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
+        name: "Rival",
         link: 6, // manager array number within this array, or null to link back to all managers page
         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "philosophy": "Pull up to the Point on Saturday.",
-      "tradingScale": 10, // 1 - 10
+      "tradingScale": 10, 
       "preferredContact": "Text",
     },
   {
-      "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
-      "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "roster": 2,
+      "managerID": "729428100005355520", 
+      "name": "Sameer Pasumarthy",
+      "location": "Bumfuck, VA",
+      "bio": "A seasoned vet who has had no success within the league. He knows everything about football, but can't translate it to wins. Truly astonishing, but we are rooting for the vengeance tour.",
+      "photo": "/managers/Sameer.jpeg",
+      "mode": "Win Now", 
       "rival": {
         name: "Rival", // Can be anything (usually your rival's name)
         link: 6, // manager array number within this array, or null to link back to all managers page
         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "philosophy": "Trust the process and get the 1st pick.",
+      "tradingScale": 10,
+      "preferredContact": "Text", 
     },
   {
-      "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
-      "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "roster": 3,
+      "managerID": "992228618803712000",
+      "name": "Vik Vakati",
+      "location": "Canton, MA", 
+      "bio": "A sly team manager who makes lowkey moves. Will either explode or put up a stinker on any given week. He'll pay attention for the first 6-8 rounds of the draft, and then let autopick do the work. Could this be his year?",
+      "photo": "/managers/Vik.png",
+      "mode": "Win Now",
       "rival": {
         name: "Rival", // Can be anything (usually your rival's name)
         link: 6, // manager array number within this array, or null to link back to all managers page
         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "philosophy": "I'm down to hang, but I'm broke.",
+      "tradingScale": 10, 
+      "preferredContact": "Text",
     },
   {
       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
