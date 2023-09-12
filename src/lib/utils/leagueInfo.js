@@ -9,7 +9,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 export const homepageText = `
   <p>Welcome to the Buncha Monkeys Fantasy Football League. Established in 2015, we have seen tremendous growth and interest within our league. Our league is filled with top competitors (excluding Sameer and Saketh).</p>
   <p>Originally deployed on Yahoo Fantasy, we have transitioned to Sleeper this, and are excited for the future on this platform. What started out as just a meme fantasy league in 2015, with random members (e.g. kids from the North tennis team), we are now 12-managers strong with fierce competition.</p>
-  <p>As commisioner of the league, I am proud to continually innovate ideas and strategies to make the league better each year. With the introduction of our podcast last year, (hosted by Gokul and Bittu), addition of new members, updating the scoring system, and the live in-person draft we are pushing innovation to at a quick pace..</p>
+  <p>As commisioner of the league, I am proud to continually innovate ideas and strategies to make the league better each year. With the introduction of our podcast last year, (hosted by Gokul and Bittu), addition of new members, updating the scoring system, and the live in-person draft we are pushing innovation to its extreme.</p>
   <p>I welcome you to our beloved league, and hope you enjoy.</p>
   <p>Sincerely,</p>
   <p>Gokul Mahadevan Pharm.D.</p>
