@@ -18,7 +18,6 @@ export const homepageText = `
 
 export const managers = [
     {
-      "roster": 1,
       "managerID": "991794411807784960", 
       "name": "Saat Garhwal",
       "location": "Walpole, MA",
