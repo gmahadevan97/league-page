@@ -26,7 +26,7 @@ export const managers = [
       "mode": "Win Now", 
       "rival": {
         name: "Saketh",
-        link: 6,
+        link: 0,
         image: "/managers/Saketh.jpeg",
       },
       "philosophy": "Trust the process and get the 1st pick.",
@@ -36,16 +36,32 @@ export const managers = [
     {
       "managerID": "860679694410952704",  
       "name": "Gokul Mahadevan",
-      "location": "Killadelphia, PA", // (optional)
+      "location": "Killadelphia, PA", 
       "bio": "The Lebron of the league. Has 1 champion, yet has made the championship 3 times. He is considerably mid during the regular season, but works his locker room magic in the playoffs for a deep playoff run. Time will tell to see if he can return to the promiseland.",
       "photo": "/managers/Gokul.png",
       "mode": "Win Now",
       "rival": {
-        name: "Krishna", // Can be anything (usually your rival's name)
-        link: 6,
+        name: "Krishna", 
+        link: 2,
         image: "/managers/Krishna.png",
       },
       "philosophy": "It's all about the locker room chemistry.",
+      "tradingScale": 10, // 1 - 10
+      "preferredContact": "Text",
+    },
+    {
+      "managerID": "871945812865916928"
+      "name": "Krishna Vijayakumar",
+      "location": "Attleboro, MA",
+      "bio": "A 2-time champion coming off a terrible season. The lord is hungry for a 3rd title, and to show everyone he's still a force in this lieage. Will he return to glory?",
+      "photo": "/managers/name.jpg",
+      "mode": "Win Now",
+      "rival": {
+        name: "Gokul",
+        link: 1,
+        image: "/managers/Gokul.png",
+      },
+      "philosophy": "I'm so ripped that I will beat my players if they don't show up.",
       "tradingScale": 10, // 1 - 10
       "preferredContact": "Text",
     },
@@ -57,16 +73,111 @@ export const managers = [
       "photo": "/managers/Saat.jpeg", 
       "mode": "Win Now",
       "rival": {
-        name: "Rival",
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "Vik",
+        link: 10, 
+        image: "/managers/Vik.png",
       },
       "philosophy": "Pull up to the Point on Saturday.",
       "tradingScale": 10, 
       "preferredContact": "Text",
     },
     {
-      "roster": 3,
+      "managerID": "991796029043396608",
+      "name": "Bittu Macha",
+      "location": "Mansfield, MA (Parents house for now)", 
+      "bio": "A one-and-done manager. Started off as a champion in the league's first season, and has done nothing since. The Aaron Rodgers of fantasy and a thief when it comes to the trade market. All he can do now is pray that Taylor gets traded.",
+      "photo": "/managers/Bittu.png",
+      "mode": "Win Now",
+      "rival": {
+        name: "Rithvik",
+        link: 5, 
+        image: "/managers/Rithvik.jpeg", 
+      },
+      "philosophy": "I'm home.",
+      "tradingScale": 10, 
+      "preferredContact": "Text",
+    },
+    {
+      "managerID": "991843428793176064",
+      "name": "Rithvik Pottepalem",
+      "location": "Canton, MA",
+      "bio": "Always a solid manager who contends every year. However, his playoff history hasn't had much success as he has yet to reach the championship. Hopefully he can use his racist energy to turn it up in the playoffs.",
+      "photo": "/managers/name.jpg", 
+      "mode": "Win Now", 
+      "rival": {
+        name: "Bittu",
+        link: 4, 
+        image: "/managers/Bittu.png",
+      },
+      "philosophy": "******, IYKYK.",
+      "tradingScale": 10,
+      "preferredContact": "Text",
+    },
+    {
+      "managerID": "992127700795981824",
+      "name": "Vikku Ponnaganti",
+      "location": "Mansfield, MA (Parents house)",
+      "bio": "A 2-time champion who has cemented himseld in the HOF. A true veteran as he was down to pennies in his bank account and knew he would win and use the winnings to pay back his brother. However, he's been heavily focused on the BLU240 and electric boats on the daily, so maybe he won't go back 2 back?",
+      "photo": "/managers/Vikku.png",
+      "mode": "Win Now",
+      "rival": {
+        name: "Sai",
+        link: 9,
+        image: "/managers/Sai.jpeg", 
+      },
+      "philosophy": "Imma win prolly.",
+      "tradingScale": 10, // 1 - 10
+      "preferredContact": "Text",
+    },
+    {
+      "managerID": "992128255719215104",
+      "name": "Vishal Bhimarasetty",
+      "location": "New Orleans, LA",
+      "bio": "Has always had a good roster every year, however, pays no attention throughout the season. The lineup from the draft will be the lineup throughout the year. Who knows, maybe this is the year he tries?",
+      "photo": "/managers/Vishal.png",
+      "mode": "Win Now",
+      "rival": {
+        name: "Matt", 
+        link: 11, 
+        image: "/managers/Matt.jpeg",
+      },
+      "philosophy": "Oh shit, didn't realize the time zone difference, slatty!",
+      "tradingScale": 10,
+      "preferredContact": "Text", 
+    },
+    {
+      "managerID": "992135278414344192",
+      "name": "Saketh Uppuluri",
+      "location": "North Attleboro, MA",
+      "bio": "Making his return from his 8 year hiatus. One of the original members of when the league was first created. He has no football knowledge as he drafted Alex Armah in the 3rd round. After going on autopick this year, he finally has a decent team, and could makde some noise.",
+      "photo": "/managers/Saketh.jpeg",
+      "mode": "Win Now",
+      "rival": {
+        name: "Sameer", 
+        link: 0, 
+        image: "/managers/Sameer.jpeg", 
+      },
+      "philosophy": "Defense is key and Bill Russell was the QB before Brady.",
+      "tradingScale": 10, // 1 - 10
+      "preferredContact": "Text",
+    },
+    {
+      "managerID": "992139621481984000",
+      "name": "Sai Kamsani",
+      "location": "Boston, MA",
+      "bio": "A smart manager who recently entered the league like a veteran. Has had success in his first 2 seasons, but is just 1 step away from the gold. He wants to be compared to Michael Phelps, but it's hard when you don't have any trophies.",
+      "photo": "/managers/Sai.jpeg",
+      "mode": "Win Now", 
+      "rival": {
+        name: "Vikku", 
+        link: 6, 
+        image: "/managers/Vikku.png",
+      },
+      "philosophy": "I hope Mango fails her MCAT.",
+      "tradingScale": 10, // 1 - 10
+      "preferredContact": "Text",
+    },
+    {
       "managerID": "992228618803712000",
       "name": "Vik Vakati",
       "location": "Canton, MA", 
@@ -74,141 +185,29 @@ export const managers = [
       "photo": "/managers/Vik.png",
       "mode": "Win Now",
       "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "Saat",
+        link: 3, 
+        image: "/managers/Saat.jpeg",
       },
       "philosophy": "I'm down to hang, but I'm broke.",
       "tradingScale": 10, 
       "preferredContact": "Text",
     },
     {
-      "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
-      "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "managerID": "992269361958256640", 
+      "name": "Matt Ferrara",
+      "location": "Mansfield, MA", 
+      "bio": "The one white guy in the league. Has had great successs ever since joining, and ultimately coming within decimal points of a championship, this team is poised to break into the history books.",
+      "photo": "/managers/Matt.jpeg",
+      "mode": "Win Now", 
       "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "Vishal", 
+        link: 7, 
+        image: "/managers/Vishal.png", 
       },
-      "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-    {
-      "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
-      "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-  {
-      "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
-      "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-  {
-      "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
-      "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-  {
-      "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
-      "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-  {
-      "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
-      "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-  {
-      "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
-      "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-  {
-      "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
-      "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "philosophy": "*cracks the whip* Get back to work.",
+      "tradingScale": 10, 
+      "preferredContact": "Text", 
     },
 ]
   
