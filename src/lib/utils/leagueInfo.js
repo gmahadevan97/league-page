@@ -34,6 +34,22 @@ export const managers = [
       "preferredContact": "Text", 
     }, 
     {
+      "managerID": "860679694410952704",  
+      "name": "Gokul Mahadevan",
+      "location": "Killadelphia, PA", // (optional)
+      "bio": "The Lebron of the league. Has 1 champion, yet has made the championship 3 times. He is considerably mid during the regular season, but works his locker room magic in the playoffs for a deep playoff run. Time will tell to see if he can return to the promiseland.",
+      "photo": "/managers/Gokul.png",
+      "mode": "Win Now",
+      "rival": {
+        name: "Krishna", // Can be anything (usually your rival's name)
+        link: 6,
+        image: "/managers/Krishna.png",
+      },
+      "philosophy": "It's all about the locker room chemistry.",
+      "tradingScale": 10, // 1 - 10
+      "preferredContact": "Text",
+    },
+    {
       "managerID": "991794411807784960", 
       "name": "Saat Garhwal",
       "location": "Walpole, MA",
@@ -66,23 +82,7 @@ export const managers = [
       "tradingScale": 10, 
       "preferredContact": "Text",
     },
-  {
-      "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
-      "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-  {
+    {
       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Your Name",
       "location": "Brooklyn", // (optional)
@@ -98,7 +98,7 @@ export const managers = [
       "tradingScale": 10, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-  {
+    {
       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Your Name",
       "location": "Brooklyn", // (optional)
