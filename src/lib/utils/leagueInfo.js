@@ -7,12 +7,13 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Welcome to the Buncha Monkeys Fantasy Football League. Established in 2015, we have seen tremendous growth and interest within our league. Our league is filled with top competitors (excluding Sameer and Saketh).</p>
+  <p>Originally deployed on Yahoo Fantasy, we have transitioned to Sleeper this, and are excited for the future on this platform. What started out as just a meme fantasy league in 2015, with random members (e.g. kids from the North tennis team), we are now 12-managers strong with fierce competition.</p>
+  <p>As commisioner of the league, I am proud to continually innovate ideas and strategies to make the league better each year. With the introduction of our podcast last year, (hosted by Gokul and Bittu), addition of new members, updating the scoring system, and the live in-person draft we are pushing innovation to at a quick pace..</p>
+  <p>I welcome you to our beloved league, and hope you enjoy.</p>
+  <p>Sincerely,</p>
+  <p>Gokul Mahadevan Pharm.D.</p>
+  <p>Commissioner & Former League Champion</p>
 `;
 
 /*   STEP 3   */
