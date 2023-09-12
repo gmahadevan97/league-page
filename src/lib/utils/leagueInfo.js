@@ -23,16 +23,16 @@ export const managers = [
       "name": "Saat Garhwal",
       "location": "Walpole, MA",
       "bio": "A new member to the league who's looking to build upon the recent success of past newcomers. He's a DJ on the weekends and likes to give Anish heart attacks with his car problems, we'll see how well he can manage in his first year.",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "photo": "/managers/Saat.jpeg", 
+      "mode": "Win Now",
       "rival": {
         name: "Rival", // Can be anything (usually your rival's name)
         link: 6, // manager array number within this array, or null to link back to all managers page
         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "philosophy": "Your fantasy team's philosophy",
+      "philosophy": "Pull up to the Point on Saturday.",
       "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "preferredContact": "Text",
     },
   {
       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
