@@ -120,3 +120,4 @@ export const managers = [
       "mode": "Win Now", 
       "philosophy": "I'm down, but I'm broke.",
     },
+]
