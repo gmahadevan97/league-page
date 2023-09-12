@@ -16,80 +16,7 @@ export const homepageText = `
   <p>Commissioner & Former League Champion</p>
 `;
 
-/*   STEP 3   */
-/*
-3 managers as an example. Uncomment (remove the //) before each line to make it live code
-If you're having trouble, reference the Training Wheels' Manager Section
-https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding-managers-and-changing-the-homepage-text
-*/
-
-// To omit an optional field, set it's value to null
-
 export const managers = [
-    {
-      "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID" : "729428100005355520",
-      "name": "Sameer Pasumarthy"
-      "location": "Bumfuck, Virginia",
-      "bio": "Knows everything about football, but doesn't translate to his teams. Has made highly questionable trades in the past, and with all the tanking the apst 4 years, he's finally been awarded with the 1st pick. One thing you can count on is Mook not being a contender.",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "rival": {
-        name: "Saketh", // Can be anything (usually your rival's name)
-        link: 9, // manager array number within this array, or null to link back to all managers page
-      },
-      "philosophy": "Trust the process for the 1st pick",
-      "tradingScale": 8,
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-    {
-      "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-    {
-      "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-  ]
-  
-  
   /*   !!  !!  IMPORTANT  !!  !! */
   /*
   Below is the most up to-date version of a manager. Please leave this commented out
@@ -97,27 +24,99 @@ export const managers = [
   and will allow updates without causing merge conflicts
   */
   
-    // {
-    //   "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
-    //   "managerID": "12345678",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-    //   "name": "Your Name",
-    //   "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
-    //   "location": "Brooklyn", // (optional)
-    //   "bio": "Lorem ipsum...",
-    //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-    //   "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-    //   "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-    //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-    //   "rival": {
-    //     name: "Rival", // Can be anything (usually your rival's name)
-    //     link: 6, // manager array number within this array, or null to link back to all managers page
-    //     image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-    //   },
-    //   "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-    //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-    //   "philosophy": "Your fantasy team's philosophy", // (optional)
-    //   "tradingScale": 10, // 1 - 10 (optional)
-    //   "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-    
+    {
+      "managerID": "991794411807784960",  
+      "name": "Saat Garhwal",
+      "location": "Walpole, MA",
+      "bio": "A new member to the league who's looking to build upon the recent success of past newcomers. He's a DJ on the weekends and likes to give Anish heart attacks with his car problems, we'll see how well he can manage in his first year.",
+      "mode": "Rebuild",
+      "philosophy": "Pull up to the Point Saturday night",
+    },
+    {
+      "managerID": "729428100005355520",
+      "name": "Sameer Pasumarthy",
+      "location": "Bumfuck, VA",
+      "bio": "A seasoned vet who has had no success within the league. He knows everything about football, but can't translate it to wins. Truly astonishing, but we are rooting for the vengeance tour.",
+      "mode": "Rebuild", 
+      "philosophy": "Trust the process and get the 1st pick.",
+    },
+    {
+      "managerID": "992228618803712000",
+      "name": "Vik Vakati",
+      "location": "Canton, MA",
+      "bio": "A sly team manager who makes lowkey moves. Will either explode or put up a stinker on any given week. He'll pay attention for the first 6-8 rounds of the draft, and then let autopick do the work. Could this be his year?",
+      "mode": "Rebuild", 
+      "philosophy": "I'm down, but I'm broke.",
+    },
+    {
+      "managerID": "992127700795981824",
+      "name": "Vikku Ponnaganti",
+      "location": "Mansfield, MA (Parents house)",
+      "bio": "A sly team manager who makes lowkey moves. Will either explode or put up a stinker on any given week. He'll pay attention for the first 6-8 rounds of the draft, and then let autopick do the work. Could this be his year?",
+      "mode": "Dynasty", 
+      "philosophy": "Imma win prolly.",
+    },
+    {
+      "managerID": "991843428793176064",
+      "name": "Rithvik Pottepalem",
+      "location": "Sharon, MA",
+      "bio": "A sly team manager who makes lowkey moves. Will either explode or put up a stinker on any given week. He'll pay attention for the first 6-8 rounds of the draft, and then let autopick do the work. Could this be his year?",
+      "mode": "Win Now", 
+      "philosophy": "******, IYKYK.",
+    },
+  {
+      "managerID": "991796029043396608",
+      "name": "Bittu Macha",
+      "location": "Mansfield, MA (Parents house for now)",
+      "bio": "A sly team manager who makes lowkey moves. Will either explode or put up a stinker on any given week. He'll pay attention for the first 6-8 rounds of the draft, and then let autopick do the work. Could this be his year?",
+      "mode": "Rebuild", 
+      "philosophy": "I'm horny.",
+    },
+  {
+      "managerID": "992139621481984000",
+      "name": "Sai Kamsani",
+      "location": "Boston, MA",
+      "bio": "A sly team manager who makes lowkey moves. Will either explode or put up a stinker on any given week. He'll pay attention for the first 6-8 rounds of the draft, and then let autopick do the work. Could this be his year?",
+      "mode": "Win Now", 
+      "philosophy": "I hope Mango fails her MCAT.",
+    },
+  {
+      "managerID": "860679694410952704",
+      "name": "Gokul Mahadevan",
+      "location": "Killadelphia, PA",
+      "bio": "A sly team manager who makes lowkey moves. Will either explode or put up a stinker on any given week. He'll pay attention for the first 6-8 rounds of the draft, and then let autopick do the work. Could this be his year?",
+      "mode": "Win Now", 
+      "philosophy": "It's all about the locker room.",
+    },
+  {
+      "managerID": "992135278414344192",
+      "name": "Saketh Uppuluri",
+      "location": "North Attleboro, MA",
+      "bio": "A sly team manager who makes lowkey moves. Will either explode or put up a stinker on any given week. He'll pay attention for the first 6-8 rounds of the draft, and then let autopick do the work. Could this be his year?",
+      "mode": "Rebuild", 
+      "philosophy": "Defense is key.",
+    },
+  {
+      "managerID": "992128255719215104",
+      "name": "Vishal Bhimarasetty",
+      "location": "New Orleans, LA",
+      "bio": "A sly team manager who makes lowkey moves. Will either explode or put up a stinker on any given week. He'll pay attention for the first 6-8 rounds of the draft, and then let autopick do the work. Could this be his year?",
+      "mode": "Rebuild", 
+      "philosophy": "I'm down, but I'm broke.",
+    },
+  {
+      "managerID": "99226936195825664",
+      "name": "Matt Ferrara",
+      "location": "Somewhere in TX",
+      "bio": "A sly team manager who makes lowkey moves. Will either explode or put up a stinker on any given week. He'll pay attention for the first 6-8 rounds of the draft, and then let autopick do the work. Could this be his year?",
+      "mode": "Win Now", 
+      "philosophy": "I'm down, but I'm broke.",
+    },
+  {
+      "managerID": "871945812865916928",
+      "name": "Krishna Vijayakumar",
+      "location": "Attleboro, MA",
+      "bio": "A sly team manager who makes lowkey moves. Will either explode or put up a stinker on any given week. He'll pay attention for the first 6-8 rounds of the draft, and then let autopick do the work. Could this be his year?",
+      "mode": "Win Now", 
+      "philosophy": "I'm down, but I'm broke.",
+    },
