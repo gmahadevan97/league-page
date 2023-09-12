@@ -25,7 +25,7 @@ export const managers = [
   */
   
     {
-      "roster": 1
+      "roster": 1,
       "managerID": "991794411807784960",  
       "name": "Saat Garhwal",
       "location": "Walpole, MA",
@@ -34,7 +34,7 @@ export const managers = [
       "philosophy": "Pull up to the Point Saturday night",
     },
     {
-      "roster": 2
+      "roster": 2,
       "managerID": "729428100005355520",
       "name": "Sameer Pasumarthy",
       "location": "Bumfuck, VA",
@@ -43,7 +43,7 @@ export const managers = [
       "philosophy": "Trust the process and get the 1st pick.",
     },
     {
-      "roster": 3
+      "roster": 3,
       "managerID": "992228618803712000",
       "name": "Vik Vakati",
       "location": "Canton, MA",
@@ -52,7 +52,7 @@ export const managers = [
       "philosophy": "I'm down, but I'm broke.",
     },
     {
-      "roster": 4
+      "roster": 4,
       "managerID": "992127700795981824",
       "name": "Vikku Ponnaganti",
       "location": "Mansfield, MA (Parents house)",
@@ -61,7 +61,7 @@ export const managers = [
       "philosophy": "Imma win prolly.",
     },
     {
-      "roster": 5
+      "roster": 5,
       "managerID": "991843428793176064",
       "name": "Rithvik Pottepalem",
       "location": "Sharon, MA",
@@ -70,7 +70,7 @@ export const managers = [
       "philosophy": "******, IYKYK.",
     },
     {
-      "roster": 6
+      "roster": 6,
       "managerID": "991796029043396608",
       "name": "Bittu Macha",
       "location": "Mansfield, MA (Parents house for now)",
@@ -79,7 +79,7 @@ export const managers = [
       "philosophy": "I'm horny.",
     },
     {
-      "roster": 7
+      "roster": 7,
       "managerID": "992139621481984000",
       "name": "Sai Kamsani",
       "location": "Boston, MA",
@@ -88,7 +88,7 @@ export const managers = [
       "philosophy": "I hope Mango fails her MCAT.",
     },
     {
-      "roster": 8
+      "roster": 8,
       "managerID": "860679694410952704",
       "name": "Gokul Mahadevan",
       "location": "Killadelphia, PA",
@@ -97,7 +97,7 @@ export const managers = [
       "philosophy": "It's all about the locker room.",
     },
     {
-      "roster": 9
+      "roster": 9,
       "managerID": "992135278414344192",
       "name": "Saketh Uppuluri",
       "location": "North Attleboro, MA",
@@ -106,7 +106,7 @@ export const managers = [
       "philosophy": "Defense is key and Bill Russell was the QB before Brady.",
     },
     {
-      "roster": 10
+      "roster": 10,
       "managerID": "992128255719215104",
       "name": "Vishal Bhimarasetty",
       "location": "New Orleans, LA",
@@ -115,7 +115,7 @@ export const managers = [
       "philosophy": "Oh shit, didn't realize the time zone difference.",
     },
     {
-      "roster": 11
+      "roster": 11,
       "managerID": "99226936195825664",
       "name": "Matt Ferrara",
       "location": "Somewhere in TX",
@@ -124,7 +124,7 @@ export const managers = [
       "philosophy": "*cracks the whip* Get back to work.",
     },
     {
-      "roster": 12
+      "roster": 12,
       "managerID": "871945812865916928",
       "name": "Krishna Vijayakumar",
       "location": "Attleboro, MA",
