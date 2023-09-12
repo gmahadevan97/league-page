@@ -64,7 +64,7 @@ export const managers = [
       "mode": "Win Now", 
       "philosophy": "******, IYKYK.",
     },
-  {
+    {
       "managerID": "991796029043396608",
       "name": "Bittu Macha",
       "location": "Mansfield, MA (Parents house for now)",
@@ -72,7 +72,7 @@ export const managers = [
       "mode": "Rebuild", 
       "philosophy": "I'm horny.",
     },
-  {
+    {
       "managerID": "992139621481984000",
       "name": "Sai Kamsani",
       "location": "Boston, MA",
@@ -80,7 +80,7 @@ export const managers = [
       "mode": "Win Now", 
       "philosophy": "I hope Mango fails her MCAT.",
     },
-  {
+    {
       "managerID": "860679694410952704",
       "name": "Gokul Mahadevan",
       "location": "Killadelphia, PA",
@@ -88,7 +88,7 @@ export const managers = [
       "mode": "Win Now", 
       "philosophy": "It's all about the locker room.",
     },
-  {
+    {
       "managerID": "992135278414344192",
       "name": "Saketh Uppuluri",
       "location": "North Attleboro, MA",
@@ -96,7 +96,7 @@ export const managers = [
       "mode": "Rebuild", 
       "philosophy": "Defense is key.",
     },
-  {
+    {
       "managerID": "992128255719215104",
       "name": "Vishal Bhimarasetty",
       "location": "New Orleans, LA",
@@ -104,7 +104,7 @@ export const managers = [
       "mode": "Rebuild", 
       "philosophy": "I'm down, but I'm broke.",
     },
-  {
+    {
       "managerID": "99226936195825664",
       "name": "Matt Ferrara",
       "location": "Somewhere in TX",
@@ -112,7 +112,7 @@ export const managers = [
       "mode": "Win Now", 
       "philosophy": "I'm down, but I'm broke.",
     },
-  {
+    {
       "managerID": "871945812865916928",
       "name": "Krishna Vijayakumar",
       "location": "Attleboro, MA",
