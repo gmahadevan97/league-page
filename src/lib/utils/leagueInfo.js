@@ -54,7 +54,7 @@ export const managers = [
       "name": "Krishna Vijayakumar",
       "location": "Attleboro, MA",
       "bio": "A 2-time champion coming off a terrible season. The lord is hungry for a 3rd title, and to show everyone he's still a force in this lieage. Will he return to glory?",
-      "photo": "/managers/name.jpg",
+      "photo": "/managers/Krishna.png",
       "mode": "Win Now",
       "rival": {
         name: "Gokul",
@@ -102,7 +102,7 @@ export const managers = [
       "name": "Rithvik Pottepalem",
       "location": "Canton, MA",
       "bio": "Always a solid manager who contends every year. However, his playoff history hasn't had much success as he has yet to reach the championship. Hopefully he can use his racist energy to turn it up in the playoffs.",
-      "photo": "/managers/name.jpg", 
+      "photo": "/managers/Rithvik.jpeg", 
       "mode": "Win Now", 
       "rival": {
         name: "Bittu",
