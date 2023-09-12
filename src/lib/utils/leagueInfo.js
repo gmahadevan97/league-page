@@ -18,6 +18,22 @@ export const homepageText = `
 
 export const managers = [
     {
+      "managerID": "729428100005355520", 
+      "name": "Sameer Pasumarthy",
+      "location": "Bumfuck, VA",
+      "bio": "A seasoned vet who has had no success within the league. He knows everything about football, but can't translate it to wins. Truly astonishing, but we are rooting for the vengeance tour.",
+      "photo": "/managers/Sameer.jpeg",
+      "mode": "Win Now", 
+      "rival": {
+        name: "Rival", // Can be anything (usually your rival's name)
+        link: 6, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      },
+      "philosophy": "Trust the process and get the 1st pick.",
+      "tradingScale": 10,
+      "preferredContact": "Text", 
+    }, 
+    {
       "managerID": "991794411807784960", 
       "name": "Saat Garhwal",
       "location": "Walpole, MA",
@@ -33,24 +49,7 @@ export const managers = [
       "tradingScale": 10, 
       "preferredContact": "Text",
     },
-  {
-      "roster": 2,
-      "managerID": "729428100005355520", 
-      "name": "Sameer Pasumarthy",
-      "location": "Bumfuck, VA",
-      "bio": "A seasoned vet who has had no success within the league. He knows everything about football, but can't translate it to wins. Truly astonishing, but we are rooting for the vengeance tour.",
-      "photo": "/managers/Sameer.jpeg",
-      "mode": "Win Now", 
-      "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "philosophy": "Trust the process and get the 1st pick.",
-      "tradingScale": 10,
-      "preferredContact": "Text", 
-    },
-  {
+    {
       "roster": 3,
       "managerID": "992228618803712000",
       "name": "Vik Vakati",
