@@ -46,11 +46,11 @@ export const managers = [
         image: "/managers/Krishna.png",
       },
       "philosophy": "It's all about the locker room chemistry.",
-      "tradingScale": 10, // 1 - 10
+      "tradingScale": 10,
       "preferredContact": "Text",
     },
     {
-      "managerID": "871945812865916928"
+      "managerID": "871945812865916928",
       "name": "Krishna Vijayakumar",
       "location": "Attleboro, MA",
       "bio": "A 2-time champion coming off a terrible season. The lord is hungry for a 3rd title, and to show everyone he's still a force in this lieage. Will he return to glory?",
@@ -62,7 +62,7 @@ export const managers = [
         image: "/managers/Gokul.png",
       },
       "philosophy": "I'm so ripped that I will beat my players if they don't show up.",
-      "tradingScale": 10, // 1 - 10
+      "tradingScale": 10, 
       "preferredContact": "Text",
     },
     {
@@ -126,7 +126,7 @@ export const managers = [
         image: "/managers/Sai.jpeg", 
       },
       "philosophy": "Imma win prolly.",
-      "tradingScale": 10, // 1 - 10
+      "tradingScale": 10, 
       "preferredContact": "Text",
     },
     {
@@ -158,7 +158,7 @@ export const managers = [
         image: "/managers/Sameer.jpeg", 
       },
       "philosophy": "Defense is key and Bill Russell was the QB before Brady.",
-      "tradingScale": 10, // 1 - 10
+      "tradingScale": 10, 
       "preferredContact": "Text",
     },
     {
@@ -174,7 +174,7 @@ export const managers = [
         image: "/managers/Vikku.png",
       },
       "philosophy": "I hope Mango fails her MCAT.",
-      "tradingScale": 10, // 1 - 10
+      "tradingScale": 10, 
       "preferredContact": "Text",
     },
     {
